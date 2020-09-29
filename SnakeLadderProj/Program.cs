@@ -9,7 +9,7 @@ namespace SnakeLadder
         {
             Random r = new Random();
             int num=r.Next(1,7);
-
+            int start = 0;
         }
     }
 }
