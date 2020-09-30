@@ -15,6 +15,7 @@ namespace SnakeLadder
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to snakes and ladder game.");
+            Console.WriteLine("No of times dice to be rolled " + Score());
 
 
         }
