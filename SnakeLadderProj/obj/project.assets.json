@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aayush Arya\\source\\repos\\SnakeLadder\\SnakeLadder\\SnakeLadder.csproj",
+      "projectUniqueName": "C:\\Users\\Aayush Arya\\Desktop\\class assignments\\SnakeLadder\\SnakeLadderProj\\SnakeLadder.csproj",
       "projectName": "SnakeLadder",
-      "projectPath": "C:\\Users\\Aayush Arya\\source\\repos\\SnakeLadder\\SnakeLadder\\SnakeLadder.csproj",
+      "projectPath": "C:\\Users\\Aayush Arya\\Desktop\\class assignments\\SnakeLadder\\SnakeLadderProj\\SnakeLadder.csproj",
       "packagesPath": "C:\\Users\\Aayush Arya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aayush Arya\\source\\repos\\SnakeLadder\\SnakeLadder\\obj\\",
+      "outputPath": "C:\\Users\\Aayush Arya\\Desktop\\class assignments\\SnakeLadder\\SnakeLadderProj\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aayush Arya\\AppData\\Roaming\\NuGet\\NuGet.Config",
