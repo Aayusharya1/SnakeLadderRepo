@@ -15,7 +15,14 @@ namespace SnakeLadder
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to snakes and ladder game.");
+            string player1 = Console.ReadLine();
+            int score1 = Score();
+            string player2 = Console.ReadLine();
+            int score2 = Score();
 
+            if (score1 < score2) Console.WriteLine("Game won by " + player1);
+            else if (score1 > score2) Console.WriteLine("Game won by " + player2);
+            else Console.WriteLine("draw.");
 
         }
 
@@ -42,7 +49,12 @@ namespace SnakeLadder
                     break;
 
                 case ladder:
-                    if (player_position + dice_num <= 100) player_position = player_position + dice_num;
+                    if (player_position + dice_num <= 100) 
+                    { 
+                        player_position = player_position + dice_num;
+                        player_position = MoveDirection(player_position, dice_num);
+                                            
+                    }
                     break;
 
             }
